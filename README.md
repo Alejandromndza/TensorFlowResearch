@@ -5,7 +5,8 @@
 Este análisis y estudio del funcionamiento de la detección de objetos en imagenes o videos se ha llevado a cabo gracias al API oficial de TensorFlow disponible en el siguiente enlace: [API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
 Para entender mejor el desarrollo del detector de objetos se hizo una investigación previa de un clasificador de objetos. 
- [Se explica detalladamente aquí](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/Clasificador.md)
+
+ Se explica detalladamente[aquí](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/Clasificador.md)
 
 ## Nota previa Protocol buffers
 Este API utiliza protobufs para configurar el modelo y los parámetros de entrenamiento. Por lo tanto se deben de compilar estas librerias, en adelante se detalla como hacerlo.
