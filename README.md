@@ -7,7 +7,7 @@ Este análisis y estudio del funcionamiento de la detección de objetos en image
 ## Nota previa Protocol buffers
 Este API utiliza protobufs para configurar el modelo y los parámetros de entrenamiento. Por lo tanto se deben de compilar estas librerias, en adelante se detalla como hacerlo.
 
-Estas librerias tienen un lenguaje y plataforma nautral, para serializar datos estructurados.
+Estas librerias tienen un lenguaje y plataforma neutral, para serializar datos estructurados.
 
 Para más información acerca de los protobufs [documentación](https://developers.google.com/protocol-buffers/).
 
