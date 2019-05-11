@@ -2,7 +2,7 @@
 
 # Experimento de detección de objetos utilizando TensorFlow
 
-Este análisis y estudio del funcionamiento de la detección de objetos en imagenes o videos se ha llevado a cabo gracias al API oficial de TensorFlow disponible en el siguiente enlace: TensorFlow API(https://github.com/tensorflow/models/tree/master/research/object_detection)
+Este análisis y estudio del funcionamiento de la detección de objetos en imagenes o videos se ha llevado a cabo gracias al API oficial de TensorFlow disponible en el siguiente enlace: [API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
 [protobuf's documentation on the Google Developers site](https://developers.google.com/protocol-buffers/).
 
