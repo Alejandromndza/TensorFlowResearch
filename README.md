@@ -53,7 +53,7 @@ El tercer dataset surge de la unión de los dos datasets anteriores con las sigu
   1. El primer dataset se somete a un filtrado de imágenes una por una y se eliminan las imágenes que consideramos que no tienen         relevancia y no aportan beneficios al entrenamiento. (1200 imágenes)
   2. El segundo dataset se somete al mismo filtrado que el primero, para evitar imágenes repeditas que afecten al entrenamiento.
   3. Se seleccionan 120 imágenes para aportar variedad al dataset.
-  4. Se seleccionan 30 videos en principio de los cuales solo 6 tendran cabida en el dataset tomando imágenes y filtrandolas.
+  4. Se seleccionan 30 videos en principio de los cuales solo 6 tendran cabida en el dataset tomando imágenes y recuadrandolas.
   
 
 
