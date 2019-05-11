@@ -4,13 +4,11 @@
 
 Este análisis y estudio del funcionamiento de la detección de objetos en imagenes o videos se ha llevado a cabo gracias al API oficial de TensorFlow disponible en el siguiente enlace: [API](https://github.com/tensorflow/models/tree/master/research/object_detection)
 
-[protobuf's documentation on the Google Developers site](https://developers.google.com/protocol-buffers/).
-
 ## Nota previa Protocol buffers
 Este API utiliza protobufs para configurar el modelo y los parámetros de entrenamiento. Por lo tanto se deben de compilar estas librerias, en adelante se detalla como hacerlo.
 
 Estas librerias tienen un lenguaje y plataforma nautral, para serializar datos estructurados.
-Para más información acerca de los protobufs [protobufs documentación](https://developers.google.com/protocol-buffers/).
+Para más información acerca de los protobufs [documentación](https://developers.google.com/protocol-buffers/).
 
 ## Como se ha llevado a cabo
 
