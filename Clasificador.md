@@ -19,7 +19,7 @@ Desarrollamos un modelo para clasificar las diferentes clases del dataset [cifar
 
 El modelo se compone en lo siguiente:
 
-_________________________________________________________________
+------------------------------------------------------------------------------------------------------------------------------
 Layer (type)                 Output Shape              Param #   
 _________________________________________________________________
 input_20 (InputLayer)        (None, 32, 32, 3)         0         
