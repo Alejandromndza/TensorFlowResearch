@@ -19,7 +19,8 @@ Desarrollamos un modelo para clasificar las diferentes clases del dataset [cifar
 
 El modelo se compone en lo siguiente:
 
-------------------------------------------------------------------------------------------------------------------------------
+```plain
+-----------------------------------------------------------------
 Layer (type)                 Output Shape              Param #   
 _________________________________________________________________
 input_20 (InputLayer)        (None, 32, 32, 3)         0         
@@ -50,6 +51,7 @@ dense_39 (Dense)             (None, 10)                32010
 _________________________________________________________________
 dense_40 (Dense)             (None, 10)                110       
 
+```
 
 Hicimos que nuestra red neuronal tuviera capas convolucionales crecientes 64 - 128 - 200.
 
