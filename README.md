@@ -46,7 +46,7 @@ Se llevo a cabo tres experimentos con diferentes datasets para comprobar la cali
 El primer dataset constaba de 3000 imágenes obtenidas de la siguiente página [web](https://sci2s.ugr.es/weapons-detection) , tras el entrenamiento no se obtuvo los resultados esperados.
 
 Tras el segundo dataset de 4500 imágenes se selecciono imagenes en videos donde aparecieran pistolas como en atracos, tiroteos...
-Al entrenar con este dataset con la misma configuración con la que se llevo a cabo con el primero, se obtuvo mejores resultados pero seguía sin tener bastantes aciertos por la falta de variedad de imágenes. 
+Se tomaron 3 videos y se recuadro frame a frame la pisición de la pistola. Al entrenar con este dataset con la misma configuración con la que se llevo a cabo con el primero, se obtuvo mejores resultados pero seguía sin tener bastantes aciertos por la falta de variedad de imágenes. 
 
 El tercer dataset surge de la unión de los dos datasets anteriores con las siguientes consideraciones:
 
