@@ -12,4 +12,10 @@ Para más información sobre google colab esta disponible en el siguiente [enlac
 
 Se puede encontrar el código en el siguiente enlace: [Modelo](https://drive.google.com/open?id=1OcOGwLL2juSK3s4SVTmZ1DYQ-a6yyHh7)
 
-#Desarrollo
+Desarrollo
+--------
+
+Desarrollamos un modelo para clasificar las diferentes clases del dataset [cifar](https://www.cs.toronto.edu/~kriz/cifar.html)
+
+El modelo se compone en lo siguiente:
+(https://github.com/Alejandromndza/TensorFlowResearch/blob/master/modelo.png)
