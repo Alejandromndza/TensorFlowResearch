@@ -2,6 +2,8 @@
 
 # Experimento de detección de objetos utilizando TensorFlow
 
+Este análisis y estudio del funcionamiento de la detección de objetos en imagenes o videos se ha llevado a cabo gracias al API oficial de TensorFlow disponible en el siguiente enlace: https://github.com/tensorflow/models
+
 Hadware Utilizado:
 
   1. Procesador Intel Core i7-8750H CPU 2.21GHz
@@ -23,4 +25,5 @@ Para llevar a cabo este experimento ha sido necesario el siguiente software:
   11. OpenCv
 
 Para más detalle sobre la instalación de los diferentes paquetes se puede consultar el siguiente enlace:
-    https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md
+https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md
+
