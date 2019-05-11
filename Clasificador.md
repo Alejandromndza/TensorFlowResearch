@@ -19,3 +19,17 @@ Desarrollamos un modelo para clasificar las diferentes clases del dataset [cifar
 
 El modelo se compone en lo siguiente:
 ![alt text](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/modelo.png)
+
+Hicimos que nuestra red neuronal tuviera capas convolucionales crecientes 64 - 128 - 200.
+
+La función de activación elegida fue 'relu' por su buen desempeño con las redes convolucionales y las imágenes.
+Para ver todas las funciones activación disponibles en keras se encuentran en este [enlace](https://keras.io/activations/)
+
+Como optimizador decidimos utilizar Adam, al solucionar el problema de SGD (Stochastic Gradient Descent), intentando superar el problema de fijación del ratio de aprendizaje. Su funcionalidad adapta el ratio de aprendizaje tomando como referencia la distribución de los parámetros, estos en caso de estar muy dispersos el ratio de aprendizaje se incrementara.
+
+Para ver todos los optimizadores disponibles visitar este [enlace](https://keras.io/optimizers/)
+
+
+
+
+
