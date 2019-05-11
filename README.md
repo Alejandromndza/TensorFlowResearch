@@ -43,10 +43,10 @@ Para más detalle sobre la instalación de los diferentes paquetes se puede cons
 
 Se llevo a cabo tres experimentos con diferentes datasets para comprobar la calidad de las imágenes siempre distribuyendo el 80% en entrenamiendo y 20% en test. Cada imágen ha sido procesada recuadrando la pistola mediante [OpenLabeling](https://github.com/Cartucho/OpenLabeling)
 
-El primer dataset constaba de 3000 imagenes obtenidas de la siguiente página [web](https://sci2s.ugr.es/weapons-detection) , tras el entrenamiento no se obtuvo los resultados esperados.
+El primer dataset constaba de 3000 imágenes obtenidas de la siguiente página [web](https://sci2s.ugr.es/weapons-detection) , tras el entrenamiento no se obtuvo los resultados esperados.
 
-Tras el segundo dataset se selecciono imagenes en videos donde aparecieran pistolas como en atracos, tiroteos...
-Al entrenar con este dataset con la misma configuración con la que se llevo a cabo con el primero, se obtuvo mejores resultados pero seguía sin tener bastantes aciertos por la falta de variedad de imágenes.
+Tras el segundo dataset de 4500 imágenes se selecciono imagenes en videos donde aparecieran pistolas como en atracos, tiroteos...
+Al entrenar con este dataset con la misma configuración con la que se llevo a cabo con el primero, se obtuvo mejores resultados pero seguía sin tener bastantes aciertos por la falta de variedad de imágenes. 
 
 El tercer dataset surge de la unión de los dos datasets anteriores con las siguientes consideraciones:
 
