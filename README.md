@@ -22,3 +22,5 @@ Para llevar a cabo este experimento ha sido necesario el siguiente software:
   10. Pandas
   11. OpenCv
 
+Para más detalle sobre la instalación de los diferentes paquetes se puede consultar el siguiente enlace:
+  https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md
