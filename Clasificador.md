@@ -18,4 +18,4 @@ Desarrollo
 Desarrollamos un modelo para clasificar las diferentes clases del dataset [cifar](https://www.cs.toronto.edu/~kriz/cifar.html)
 
 El modelo se compone en lo siguiente:
-![alt text]https://github.com/Alejandromndza/TensorFlowResearch/blob/master/modelo.png
+![alt text](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/modelo.png)
