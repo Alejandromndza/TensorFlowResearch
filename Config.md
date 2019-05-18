@@ -38,8 +38,8 @@ Por convención a la primera red se le denomina first stage y a la segunda secon
 
 Parámetros para la primera etapa:
 
-  1. first_stage_nms_score_threshold: El umbral de puntución de NO supresión máxima
-  2. first_stage_nms_iou_threshold: El umbral de IOU sin supresión máxima
+  **1. first_stage_nms_score_threshold**: El umbral de puntución de NO supresión máxima
+  **2. first_stage_nms_iou_threshold**: El umbral de IOU sin supresión máxima
   
 
 ---------
