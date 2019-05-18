@@ -1,5 +1,5 @@
 
-##Configuración
+# Configuración
 
 Keep aspect ratio resizer
 ---------
