@@ -59,15 +59,23 @@ El índice de Jaccard mide el grado de similitud entre dos conjuntos.
                                 Nc - cantidad de elementos en el conjunto que intercepta
 
 Umbral IOU, durante el entrenamiento se procede a juntar el cuadro real con el predicho sobre intersección over union que es el índice de Jaccard. Los mejores cuadros se etiquetaran como positivos si están por encima del umbral IOU.
-  
+
+Second Stage
+---------
+
 
  
- 
- 
-  
+ROI Polling (Region of interest)
+---------
+Esta capa forma parte de la red neuronal, nos permite reutilizar el mapa de características de la red convolucional con esto se logra una acceleración importante en el entrenamiento, ya que tenemos una forma abstracta de representación que reduce el número de parámetros a aprender.
 
----------
----------
+**Initial crop Size**: Corte ROI basado en la interpolación bilineal, esta es una técnica para calcular valores de una ubicación de una malla basada en celdas de cuadrículas cercanas. Se usa un promedio de distancia para estimar celdas más cercanas a las que se les dan pesos más altos.
+
+**Maxpool Kernel size**: Se trata de la dimensión del núcleo de la capa de agrupación, se recomienda que esta no tiene que ser demasiada grande ya que se pierde información o características imporantes.
+
+**Maxpool Stride**: Paso de la operación de grupo máximo durante la agrupación ROI.
+
+
 ---------
 ---------
 ---------
