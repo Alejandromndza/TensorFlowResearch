@@ -52,11 +52,11 @@ El umbral de no supresión máxima se utiliza para evitar que los cuadros de anc
 
 El índice de Jaccard mide el grado de similitud entre dos conjuntos.
 
-                                        T=\frac{N_c}{N_a+N_b-N_c}
+                                        T= Nc / Na+Nb-Nc
                     donde
-                                N_a - cantidad de elementos en el conjunto А
-                                N_b - cantidad de elementos en el conjunto B
-                                N_c - cantidad de elementos en el conjunto que intercepta
+                                Na - cantidad de elementos en el conjunto А
+                                Nb - cantidad de elementos en el conjunto B
+                                Nc - cantidad de elementos en el conjunto que intercepta
 
 Umbral IOU, durante el entrenamiento se procede a juntar el cuadro real con el predicho sobre intersección over union que es el índice de Jaccard. Los mejores cuadros se etiquetaran como positivos si están por encima del umbral IOU.
   
