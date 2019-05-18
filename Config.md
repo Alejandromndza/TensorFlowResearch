@@ -52,7 +52,7 @@ El umbral de no supresión máxima se utiliza para evitar que los cuadros de anc
 
 El índice de Jaccard mide el grado de similitud entre dos conjuntos.
 
-                                        T= Nc / Na+Nb-Nc
+                                        T= Nc / (Na + Nb - Nc)
                     donde
                                 Na - cantidad de elementos en el conjunto А
                                 Nb - cantidad de elementos en el conjunto B
