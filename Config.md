@@ -29,9 +29,9 @@ Initizalizer
 ---------
 Se selecciona el inicializador, **truncated_normal_initializer** selecciona números aleatorios de una distribución normal cuya media ronda cerca del 0. Se denomina truncado porque esta cortando las colas de la distribución normal, se especifica mediante **stddev**
 
-----------
+```plain
 Faster RCNN se compone de dos redes, la primera propone regiones en las cuales se puede encontrar objetos (RPN). La segunda red intenta detectar objetos en las propuestas dadas por la primera. Por convención a la primera red se le denomina first stage y a la segunda second stage.
------------
+```
 
 First stage 
 ---------
