@@ -36,10 +36,34 @@ Faster RCNN se compone de dos redes, la primera propone regiones en las cuales s
 La segunda red intenta detectar objetos en las propuestas dadas por la primera. 
 Por convención a la primera red se le denomina first stage y a la segunda second stage.
 
+First stage
+----------
+
 Parámetros para la primera etapa:
 
-  **1. first_stage_nms_score_threshold**: El umbral de puntución de NO supresión máxima
-  **2. first_stage_nms_iou_threshold**: El umbral de IOU sin supresión máxima
+  1. first_stage_nms_score_threshold: El umbral de puntución de no supresión máxima
+  2. first_stage_nms_iou_threshold: El umbral de IOU sin supresión máxima
+  3. first_stage_max_proposals: El máximo de propuestas permitidas para la primera red
+  4. first_stage_localization_loss_weight : El error permitido para la localización
+  5. first_stage_localization_loss_weight : Localización por perdida de peso
+  6. first_stage_objectness_loss_weight : Pérdida de peso objetivo
+  
+El umbral de no supresión máxima se utiliza para evitar que los cuadros de anclaje delimitadores se suporpongan señalando el mismo objeto. Para que no existan varias detecciones sobre un mismo objetivo.
+
+El índice de Jaccard mide el grado de similitud entre dos conjuntos.
+
+                                            T=\frac{N_c}{N_a+N_b-N_c}
+                        donde
+                                    N_a - cantidad de elementos en el conjunto А
+                                    N_b - cantidad de elementos en el conjunto B
+                                    N_c - cantidad de elementos en el conjunto que intercepta
+
+Umbral IOU, durante el entrenamiento se procede a juntar el cuadro real con el predicho sobre intersección over union que es el índice de Jaccard. Los mejores cuadros se etiquetaran como positivos si están por encima del umbral IOU.
+  
+
+ 
+ 
+ 
   
 
 ---------
