@@ -75,7 +75,7 @@ Esta capa forma parte de la red neuronal, nos permite reutilizar el mapa de cara
 
 **Maxpool Kernel size**: Se trata de la dimensión del núcleo de la capa de agrupación, se recomienda que esta no tiene que ser demasiada grande ya que se pierde información o características imporantes.
 
-**Maxpool Stride**: Paso de la operación de grupo máximo durante la agrupación ROI.
+**Maxpool Stride**: Paso de la operación de grupo máximo durante la agrupación ROI..
 
 
 ---------
