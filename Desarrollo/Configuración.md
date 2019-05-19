@@ -148,6 +148,7 @@ Otros parámetros
 Data argumentation options
 ---------
 Existen varias opciones para estos parámetros:
+
     NormalizeImage normalize_image = 1;
     RandomHorizontalFlip random_horizontal_flip = 2;
     RandomPixelValueScale random_pixel_value_scale = 3;
