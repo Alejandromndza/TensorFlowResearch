@@ -44,9 +44,8 @@ Parámetros para la primera etapa:
   1. first_stage_nms_score_threshold: El umbral de puntución de no supresión máxima
   2. first_stage_nms_iou_threshold: El umbral de IOU sin supresión máxima
   3. first_stage_max_proposals: El máximo de propuestas permitidas para la primera red
-  4. first_stage_localization_loss_weight : El error permitido para la localización
-  5. first_stage_localization_loss_weight : Localización por perdida de peso
-  6. first_stage_objectness_loss_weight : Pérdida de peso objetivo
+  4. first_stage_localization_loss_weight : Perdida de peso por localización
+  5. first_stage_objectness_loss_weight : Pérdida de peso por objetivo
   
 El umbral de no supresión máxima se utiliza para evitar que los cuadros de anclaje delimitadores se suporpongan señalando el mismo objeto. Para que no existan varias detecciones sobre un mismo objetivo.
 
