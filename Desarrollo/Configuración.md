@@ -20,10 +20,10 @@ First stage anchor generator
 Los cuadros de anclaje se utilizan en algoritmos de detección para ayudar a identificar objetos de diferentes formas.
 Para ello mediante **grid_anchor_generator** se puede modificar opciones como :
 
-  Scales: se definen para usar un conjunto de escalas explícitamente definido.
-  Aspect ratios: Relación de aspectos para los cuadros de anclajes en cada punto de rejilla. Esto es un atributo de proyección   de imagen que describe la relación proporcional entre el ancho de una imagen y su altura.
-  Height stride: La altura de pixeles para cada cuadro de anclaje.
-  Widht stride: La anchura de pixeles para cada cuadro de anclaje.
+    Scales: se definen para usar un conjunto de escalas explícitamente definido.
+    Aspect ratios: Relación de aspectos para los cuadros de anclajes en cada punto de rejilla. Esto es un atributo de proyección   de imagen que describe la relación proporcional entre el ancho de una imagen y su altura.
+    Height stride: La altura de pixeles para cada cuadro de anclaje.
+    Widht stride: La anchura de pixeles para cada cuadro de anclaje.
   
 Initializer
 ---------
