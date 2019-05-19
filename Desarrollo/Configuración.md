@@ -175,7 +175,7 @@ Existen varias opciones para estos parámetros:
 
 Para mas información visitar este [enlace](https://github.com/tensorflow/models/blob/master/research/object_detection/core/preprocessor.py)
 
-Train Eval config
+Train Eval input
 ---------
 
 En ambos casos necesitamos indicar el path donde se encontrara el tf record de los datos de entranemiento y test.
