@@ -88,6 +88,13 @@ El error cuadrático medio **MSE**, es la media de la diferencia entre los punto
 
 ![alt text](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/MSE.png)
 
+**Inicializater**
+
+Al inicializar una red profunda, puede resultar favorable mantener constante la escala de la varianza de entrada, para que no disminuya al alcanzar la capa final.
+
+**Variance scaling initializer** Este inicializador está diseñado para mantener la escala de los gradientes aproximadamente al mismo valor durante todas las capas. 
+
+
 ROI Polling (Region of interest)
 ---------
 Esta capa forma parte de la red neuronal, nos permite reutilizar el mapa de características de la red convolucional con esto se logra una acceleración importante en el entrenamiento, ya que tenemos una forma abstracta de representación que reduce el número de parámetros a aprender.
