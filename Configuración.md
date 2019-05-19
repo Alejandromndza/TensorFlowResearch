@@ -79,15 +79,16 @@ Cuando utilizamos regularizadores, estos actuan de manera que evitan el sobreaju
 
 Están disponibles los siguientes: 
 
-  l1_regularizer Agrega el valor absoluto de magnitud del coeficiente como término a la función de perdida.
-  l2_regularizer Agrega la magnitud al cuadrado del coeficiente como término de penalización en la función de perdida.
+  l1_regularizer Agrega el valor absoluto del coeficiente de peso como término a la función de perdida.
+  l2_regularizer Agrega el cuadrado del coeficiente de peso como término de penalización en la función de perdida.
   
 Principalmente para escoger uno u otro nos basamos en si los resultados son matrices dispersas o no. En caso de tratar con matrices no dispersas se recomienda el uso del l2 en caso contrario l1
   
 La función de pérdida mide con los resultados de las predicciones y la respuesta correcta que tan buenas son las predicciones. Existen varias funciones de perdida como el error cuadrático medio o la entropía cruzada.
 
-![alt text](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/ErrorCuadratico.png)
+El error cuadrático medio MSE, es la media de la diferencia entre los puntos reales y la salida predicha al cuadrado. Este método penaliza las diferencias mayores.
 
+![alt text](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/MSE.png)
 
 ROI Polling (Region of interest)
 ---------
