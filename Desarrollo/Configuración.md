@@ -22,7 +22,7 @@ Para ello mediante **grid_anchor_generator** se puede modificar opciones como :
 
 1. Scales: se definen para usar un conjunto de escalas explícitamente definido.
 2. Aspect ratios: Relación de aspectos para los cuadros de anclajes en cada punto de rejilla. Esto es un 
-   atributo deproyección de imagen que describe la relación proporcional entre el ancho de una imagen y altura.
+   atributo de proyección de imagen que describe la relación proporcional entre el ancho de una imagen y altura.
 3. Height stride: La altura de pixeles para cada cuadro de anclaje.
 4. Widht stride: La anchura de pixeles para cada cuadro de anclaje.
 
