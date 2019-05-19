@@ -189,4 +189,4 @@ Eval_config
 
 En este apartado tendremos que indicar el número de elementos que tendremos en nuestra carpeta de test, y que por lo tanto van a ser evaluados.
 
-Nuestra configuración se encuentra aquí 
+Nuestra configuración se encuentra [aquí](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/Config/faster_rcnn_inception_v2_UCM.config)
