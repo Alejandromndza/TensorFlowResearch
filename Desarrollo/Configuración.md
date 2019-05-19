@@ -111,6 +111,20 @@ Esta capa forma parte de la red neuronal, nos permite reutilizar el mapa de cara
 
 Second Stage post processing
 ---------
+Tras el paso de la segunda que actua de clasificador, entramos en un post procesamiento.
+
+**Batch normalization** Es un método que normaliza cada paquete del batch, esto se realiza para evitar que los datos tengan distancias muy diferentes. Además ayuda a la red neuronal a trabajar con mas eficiencia. Esta normalización se va perdiendo con el paso de los datos por las redes ocultas. Por ello es necesario aplicar esto en el post procesamiento antes de que los datos vuelvan a entrar. Por ejemplo si tienes un objeto con dos colores distintos, es necesario que la red tenga de entrada ejemplos con ambos colores en el batch. Ya que tiene que generalizar y no entrenar a algo especifico para no tener futuros problemas en todo el proceso de entrenamiento.
+
+En este apartado se definen varios parámetros para regularizar los datos:
+  1. iou_treshold con el coeficiente de IOU explicado anteriormente.
+  2. max detections per class con esto se puede regularizar los datos de entrada por cada clase.
+  3. max total detections se regulariza las detecciones totales en el batch.
+  
+
+
+ 
+
+
 ---------
 ---------
 ---------
