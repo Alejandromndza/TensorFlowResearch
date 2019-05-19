@@ -86,7 +86,7 @@ Principalmente para escoger uno u otro nos basamos en si los resultados son matr
   
 La función de pérdida mide con los resultados de las predicciones y la respuesta correcta que tan buenas son las predicciones. Existen varias funciones de perdida como el error cuadrático medio o la entropía cruzada.
 
-![alt text](https://github.com/Alejandromndza/TensorFlowResearch)
+![alt text](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/ErrorCuadratico.png)
 
 
 ROI Polling (Region of interest)
