@@ -82,7 +82,7 @@ Están disponibles los siguientes:
   1. L1_regularizer Agrega el valor absoluto del coeficiente de peso como término a la función de perdida.
   2. L2_regularizer Agrega el cuadrado del coeficiente de peso como término de penalización en la función de perdida.
   
-Principalmente para escoger uno u otro nos basamos en si los resultados son matrices dispersas o no. En caso de tratar con matrices no dispersas se recomienda el uso del l2 en caso contrario l1
+Principalmente para escoger uno u otro nos basamos en si los resultados son matrices dispersas o no. En caso de tratar con matrices no dispersas se recomienda el uso del l2 en caso contrario l1.
   
 La función de pérdida mide con los resultados de las predicciones y la respuesta correcta que tan buenas son las predicciones. Existen varias funciones de perdida como el error cuadrático medio o la entropía cruzada.
 
