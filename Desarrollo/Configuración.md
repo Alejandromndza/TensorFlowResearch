@@ -123,16 +123,24 @@ En este apartado se definen varios parámetros para regularizar los datos:
   
 Train Config
 ---------
-**Optimizer** Hay diferentes tipos de optimizadores disponibles **RMSPropOptimizer**,**MomentumOptimizer**,**AdamOptimizer**
 
-En nuestro caso nos resulto interesante el optimizador momentum, ya que puedes guiar según el descenso de gradiente y el paso actual del modelo para modificar el learning rate.
-
-Mediante la configuración de **manual_step_learning_rate**
-
-
-
-
+Optimizer
 ---------
+Hay diferentes tipos de optimizadores disponibles **RMSPropOptimizer**,**MomentumOptimizer**,**AdamOptimizer**
+
+En nuestro caso nos resulto interesante el optimizador momentum, ya que nos ayuda a accelerar el descenso de gradiente en la dirección relevante y quitando repercusión a las oscilaciones.
+
+Podemos modificar el parámetro del learning rate mediante la configuración de **manual_step_learning_rate** también se utiliza el valor del optimizador de momentum **momentum_optimizer_value** se suele establecer en 0.9
+
+**use_moving_average** La media móvil se utiliza para suavizar los datos creando promedios actualizados constantemente.
+
+
+
+
+
+
+
+
 ---------
 ---------
 ---------
