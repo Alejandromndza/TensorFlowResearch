@@ -72,6 +72,23 @@ Los parámetros de configuración de este mismo son los siguientes:
 
 Se recomienda no utilizar el dropout, debido a las relaciones codificadas en los mapas de características, las activaciones pueden ser altamente correlacionadas. Actualmente se utiliza batch normalization para estabilizar la red neuronal. 
 
+**dropout keep probability**: Se utiliza para calcular si la neurona tendra deserción o no, es decir se calcula la contribución de cada neurona con la probabilidad que indiquemos en este parámetro.
+
+**Regulizer**: 
+Cuando utilizamos regularizadores, estos actuan de manera que evitan el sobreajuste(overfitting) suavizando los resultados. Evitando que la máquina intente adaptarse lo máximo posible a los datos de entranamiento, ya que no da abstracción a sus predicciones, tenemos que conseguir resultados lo más genericos posibles.
+
+Están disponibles los siguientes: 
+
+  l1_regularizer Agrega el valor absoluto de magnitud del coeficiente como término a la función de perdida.
+  ![alt text](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/l1.png)
+  l2_regularizer Agrega la magnitud al cuadrado del coeficiente como término de penalización en la función de perdida.
+  ![alt text](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/l2.png)
+  
+La función de pérdida mide con los resultados de las predicciones y la respuesta correcta que tan buenas son las predicciones. Existen varias funciones de perdida como el error cuadrático medio o la entropía cruzada.
+
+
+
+
 ROI Polling (Region of interest)
 ---------
 Esta capa forma parte de la red neuronal, nos permite reutilizar el mapa de características de la red convolucional con esto se logra una acceleración importante en el entrenamiento, ya que tenemos una forma abstracta de representación que reduce el número de parámetros a aprender.
@@ -82,7 +99,7 @@ Esta capa forma parte de la red neuronal, nos permite reutilizar el mapa de cara
 
 **Maxpool Kernel size**: Se trata de la dimensión del núcleo de la capa de agrupación, se recomienda que esta no tiene que ser demasiada grande ya que se pierde información o características imporantes.
 
-**Maxpool Stride**: Paso de la operación de grupo máximo durante la agrupación ROI.
+**Maxpool Stride**: Paso de la operación de grupo máximo durante la agrupación ROI
 
 ---------
 ---------
