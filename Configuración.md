@@ -79,8 +79,8 @@ Cuando utilizamos regularizadores, estos actuan de manera que evitan el sobreaju
 
 Están disponibles los siguientes: 
 
-  l1_regularizer Agrega el valor absoluto del coeficiente de peso como término a la función de perdida.
-  l2_regularizer Agrega el cuadrado del coeficiente de peso como término de penalización en la función de perdida.
+  1. l1_regularizer Agrega el valor absoluto del coeficiente de peso como término a la función de perdida.
+  2. l2_regularizer Agrega el cuadrado del coeficiente de peso como término de penalización en la función de perdida.
   
 Principalmente para escoger uno u otro nos basamos en si los resultados son matrices dispersas o no. En caso de tratar con matrices no dispersas se recomienda el uso del l2 en caso contrario l1
   
