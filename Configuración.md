@@ -88,7 +88,7 @@ El error cuadrático medio **MSE**, es la media de la diferencia entre los punto
 
 ![alt text](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/MSE.png)
 
-**Inicializater**
+**Initializer**
 
 Al inicializar una red profunda, puede resultar favorable mantener constante la escala de la varianza de entrada, para que no disminuya al alcanzar la capa final.
 
