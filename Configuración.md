@@ -62,9 +62,16 @@ Umbral IOU, durante el entrenamiento se procede a juntar el cuadro real con el p
 
 Second Stage
 ---------
+**mask rcnn box predictor** Se encarga de predecir clases, opcionalmente permite de predicción de máscaras o puntos clave dentro de las cajas de detección.
 
+Los parámetros de configuración de este mismo son los siguientes:
 
- 
+**use dropout**: Generalmente se utiliza cuando la red esta en riesgo de sobrealimentación, es decir cuando la red es demasiado grande, entrenas durante mucho tiempo o si no tienes suficientes datos.
+
+![alt text](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/dropout.png)
+
+Se recomienda no utilizar el dropout, debido a las relaciones codificadas en los mapas de características, las activaciones pueden ser altamente correlacionadas. Actualmente se utiliza batch normalization para estabilizar la red neuronal. 
+
 ROI Polling (Region of interest)
 ---------
 Esta capa forma parte de la red neuronal, nos permite reutilizar el mapa de características de la red convolucional con esto se logra una acceleración importante en el entrenamiento, ya que tenemos una forma abstracta de representación que reduce el número de parámetros a aprender.
@@ -75,8 +82,7 @@ Esta capa forma parte de la red neuronal, nos permite reutilizar el mapa de cara
 
 **Maxpool Kernel size**: Se trata de la dimensión del núcleo de la capa de agrupación, se recomienda que esta no tiene que ser demasiada grande ya que se pierde información o características imporantes.
 
-**Maxpool Stride**: Paso de la operación de grupo máximo durante la agrupación ROI..
-
+**Maxpool Stride**: Paso de la operación de grupo máximo durante la agrupación ROI.
 
 ---------
 ---------
