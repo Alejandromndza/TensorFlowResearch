@@ -9,7 +9,7 @@ Feature extractor
 ---------
 Con este parámetro de configuración se especifica en primer lugar que tipo de extractor se escogera para el modelo mediante **type**
 
-![alt text](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/comparative.png)
+![alt text](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/img/comparative.png)
 
 Como se observa hay diferentes tipos para escoger, en nuestro tfg nos hemos decantado por el tipo inception. Ya que es el que mejores resultados ha dado.
 
@@ -68,7 +68,7 @@ Los parámetros de configuración de este mismo son los siguientes:
 
 **use dropout**: Generalmente se utiliza cuando la red esta en riesgo de sobrealimentación, es decir cuando la red es demasiado grande, entrenas durante mucho tiempo o si no tienes suficientes datos.
 
-![alt text](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/dropout.png)
+![alt text](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/img/dropout.png)
 
 Se recomienda no utilizar el dropout, debido a las relaciones codificadas en los mapas de características, las activaciones pueden ser altamente correlacionadas. Actualmente se utiliza batch normalization para estabilizar la red neuronal. 
 
@@ -86,7 +86,7 @@ La función de pérdida mide con los resultados de las predicciones y la respues
 
 El error cuadrático medio **MSE**, es la media de la diferencia entre los puntos reales y la salida predicha al cuadrado. Este método penaliza las diferencias mayores.
 
-![alt text](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/MSE.png)
+![alt text](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/img/MSE.png)
 
 **Initializer**
 
@@ -101,7 +101,7 @@ ROI Polling (Region of interest)
 ---------
 Esta capa forma parte de la red neuronal, nos permite reutilizar el mapa de características de la red convolucional con esto se logra una acceleración importante en el entrenamiento, ya que tenemos una forma abstracta de representación que reduce el número de parámetros a aprender.
 
-![alt text](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/ROI.png)
+![alt text](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/img/ROI.png)
 
 **Initial crop Size**: Corte ROI basado en la interpolación bilineal, esta es una técnica para calcular valores de una ubicación de una malla basada en celdas de cuadrículas cercanas. Se usa un promedio de distancia para estimar celdas más cercanas a las que se les dan pesos más altos.
 
