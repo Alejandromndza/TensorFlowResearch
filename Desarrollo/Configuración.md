@@ -175,7 +175,16 @@ Existen varias opciones para estos parámetros:
 
 Para mas información visitar este [enlace](https://github.com/tensorflow/models/blob/master/research/object_detection/core/preprocessor.py)
 
+Train Eval config
+---------
 
+En ambos casos necesitamos indicar el path donde se encontrara el tf record de los datos de entranemiento y test.
+Además de el label map que nos indica cuántas clases tendrá nuestro clasificador
+
+
+Eval_config
 ---------
----------
----------
+
+En este apartado tendremos que indicar el número de elementos que tendremos en nuestra carpeta de test, y que por lo tanto van a ser evaluados.
+
+Nuestra configuración se encuentra aquí 
