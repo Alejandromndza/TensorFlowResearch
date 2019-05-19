@@ -25,7 +25,7 @@ Para ello mediante **grid_anchor_generator** se puede modificar opciones como :
   Height stride: La altura de pixeles para cada cuadro de anclaje.
   Widht stride: La anchura de pixeles para cada cuadro de anclaje.
   
-Initizalizer
+Initializer
 ---------
 Se selecciona el inicializador, **truncated_normal_initializer** selecciona números aleatorios de una distribución normal cuya media ronda cerca del 0. Se denomina truncado porque esta cortando las colas de la distribución normal, se especifica mediante **stddev**
 
