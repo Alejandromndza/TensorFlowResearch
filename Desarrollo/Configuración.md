@@ -81,7 +81,7 @@ Están disponibles los siguientes:
   1. L1_regularizer Agrega el valor absoluto del coeficiente de peso como término a la función de perdida.
   2. L2_regularizer Agrega el cuadrado del coeficiente de peso como término de penalización en la función de perdida.
   
-La función de pérdida mide con los resultados de las predicciones y la respuesta correcta que tan buenas son las predicciones. Existen varias funciones de perdida como el error cuadrático medio o la entropía cruzada.
+La función de pérdida mide con los resultados de las predicciones y la respuesta correcta como de eficientes son las predicciones. Existen varias funciones de perdida como el error cuadrático medio o la entropía cruzada.
 
 El error cuadrático medio **MSE**, es la media de la diferencia entre los puntos reales y la salida predicha al cuadrado. Este método penaliza las diferencias mayores.
 
