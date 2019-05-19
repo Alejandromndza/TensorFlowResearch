@@ -80,14 +80,13 @@ Cuando utilizamos regularizadores, estos actuan de manera que evitan el sobreaju
 Están disponibles los siguientes: 
 
   l1_regularizer Agrega el valor absoluto de magnitud del coeficiente como término a la función de perdida.
-  ![alt text](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/l1.png)
-  
   l2_regularizer Agrega la magnitud al cuadrado del coeficiente como término de penalización en la función de perdida.
-  ![alt text](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/l2.png)
+  
+Principalmente para escoger uno u otro nos basamos en si los resultados son matrices dispersas o no. En caso de tratar con matrices no dispersas se recomienda el uso del l2 en caso contrario l1
   
 La función de pérdida mide con los resultados de las predicciones y la respuesta correcta que tan buenas son las predicciones. Existen varias funciones de perdida como el error cuadrático medio o la entropía cruzada.
 
-
+![alt text](https://github.com/Alejandromndza/TensorFlowResearch)
 
 
 ROI Polling (Region of interest)
