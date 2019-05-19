@@ -96,6 +96,8 @@ Al inicializar una red profunda, puede resultar favorable mantener constante la 
 
 Este inicializador está diseñado para mantener la escala de los gradientes aproximadamente al mismo valor durante todas las capas. 
 
+**Pesos** inicialmente los pesos son inicializados, la red implementa una serie de transformaciones que son aleatorias. Por ello tendremos en la función de perdida unos valores muy altos. A medida que la red va procesando nuevos casos esta se va ajustando. Para la segunda capa se puede indicar la perdida de peso por localización y por clasificación mediante **second_stage_localization** y **second_stage_classification_loss_weight**
+
 
 ROI Polling (Region of interest)
 ---------
@@ -120,6 +122,7 @@ En este apartado se definen varios parámetros para regularizar los datos:
   2. max detections per class con esto se puede regularizar los datos de entrada por cada clase.
   3. max total detections se regulariza las detecciones totales en el batch.
   
+
 
 
  
