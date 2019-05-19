@@ -121,13 +121,17 @@ En este apartado se definen varios parámetros para regularizar los datos:
   2. max detections per class con esto se puede regularizar los datos de entrada por cada clase.
   3. max total detections se regulariza las detecciones totales en el batch.
   
-
-
-
- 
-
-
+Train Config
 ---------
+**Optimizer** Hay diferentes tipos de optimizadores disponibles **RMSPropOptimizer**,**MomentumOptimizer**,**AdamOptimizer**
+
+En nuestro caso nos resulto interesante el optimizador momentum, ya que puedes guiar según el descenso de gradiente y el paso actual del modelo para modificar el learning rate.
+
+Mediante la configuración de **manual_step_learning_rate**
+
+
+
+
 ---------
 ---------
 ---------
