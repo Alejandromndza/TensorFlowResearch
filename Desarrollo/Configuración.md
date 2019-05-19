@@ -134,15 +134,47 @@ Podemos modificar el parámetro del learning rate mediante la configuración de 
 
 **use_moving_average** La media móvil se utiliza para suavizar los datos creando promedios actualizados constantemente.
 
-
-
-
-
-
-
-
+Otros parámetros
 ---------
+
+**gradient_clipping_by_norm** El recorte de gradiente nos permite evitar acantilados, estos ocurren comúnmente en redes recurrentes en el área donde la red se comporta de manera lineal. Con el recorte hacemos que el gradiente descienda al mínimo.
+
+![alt text](https://github.com/Alejandromndza/TensorFlowResearch/blob/master/img/clipping.png)
+
+**fine_tune_checkpoint** Tenemos que indicar aquí el path del modelo pre-entrenado para continuar su entrenamiento, se puede omitir pero la red empezaria de 0.
+
+**from_detection_checkpoint** Si es falso, asume que el punto de control era de un punto de control de clasificación de objetos. Es mejor empezar en un punto de control de detección que de clasificación ya que tendremos una capacitación más rápida.
+
+Data argumentation options
 ---------
+Existen varias opciones para estos parámetros:
+    NormalizeImage normalize_image = 1;
+    RandomHorizontalFlip random_horizontal_flip = 2;
+    RandomPixelValueScale random_pixel_value_scale = 3;
+    RandomImageScale random_image_scale = 4;
+    RandomRGBtoGray random_rgb_to_gray = 5;
+    RandomAdjustBrightness random_adjust_brightness = 6;
+    RandomAdjustContrast random_adjust_contrast = 7;
+    RandomAdjustHue random_adjust_hue = 8;
+    RandomAdjustSaturation random_adjust_saturation = 9;
+    RandomDistortColor random_distort_color = 10;
+    RandomJitterBoxes random_jitter_boxes = 11;
+    RandomCropImage random_crop_image = 12;
+    RandomPadImage random_pad_image = 13;
+    RandomCropPadImage random_crop_pad_image = 14;
+    RandomCropToAspectRatio random_crop_to_aspect_ratio = 15;
+    RandomBlackPatches random_black_patches = 16;
+    RandomResizeMethod random_resize_method = 17;
+    ScaleBoxesToPixelCoordinates scale_boxes_to_pixel_coordinates = 18;
+    ResizeImage resize_image = 19;
+    SubtractChannelMean subtract_channel_mean = 20;
+    SSDRandomCrop ssd_random_crop = 21;
+    SSDRandomCropPad ssd_random_crop_pad = 22;
+    SSDRandomCropFixedAspectRatio ssd_random_crop_fixed_aspect_ratio = 23;
+
+Para mas información visitar este [enlace](https://github.com/tensorflow/models/blob/master/research/object_detection/core/preprocessor.py)
+
+
 ---------
 ---------
 ---------
